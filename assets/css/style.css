@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.2em 0;
+}
+
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(/Linktree/assets/images/WhatsApp\ Image\ 2023-12-07\ at\ 16.53.26_ae163a69.jpg);
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.name{
+    margin: 0.21em 0;
+    font-weight: 500;
+}
+
+.list, a{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 0.4em;
+    font-weight: 550;
+    color: #000;
+}
+
+.list li{
+    background-color: #4CB9E7;
+    padding: .5rem 12rem;
+    border-radius: 10px;
+    width: 80%;
+   
+   
+}
+
+.list li:hover{
+    transform: scale(1.1);
+}
+
+.list a:hover{
+   color: #fefefe;
+}
+
+.list li:active{
+   filter: brightness(30%);
+}
